@@ -1,4 +1,6 @@
-// Convolución simple 2D
+open System
+
+// Simple 2D convolution
 let convolve (input: float[,]) (kernel: float[,]) =
     let inRows, inCols = input.GetLength(0), input.GetLength(1)
     let kRows, kCols = kernel.GetLength(0), kernel.GetLength(1)
@@ -27,11 +29,11 @@ let maxPool (input: float[,]) (poolSize: int) =
             output.[i, j] <- maxVal
     output
 
-// Flatten: convierte matriz a vector
+// Flatten: transform matrix to vector
 let flatten (input: float[,]) =
     input |> Seq.cast<float> |> Seq.toArray
 
-// Capa densa (fully connected)
+// Dense layer
 let dense (input: float[]) (weights: float[,]) (bias: float[]) =
     let outSize = weights.GetLength(0)
     let output = Array.zeroCreate outSize
@@ -50,20 +52,20 @@ let input = array2D [ [1.0; 0.0; 1.0]
 let kernel = array2D [ [1.0; 0.0]
                        [0.0; 1.0] ]
 
-// Paso 1: convolución
+// Step 1: convolution
 let convOut = convolve input kernel
 printfn "Convolution output:\n%A" convOut
 
-// Paso 2: pooling
+// Step 2: pooling
 let pooled = maxPool convOut 2
 printfn "After pooling:\n%A" pooled
 
-// Paso 3: flatten
+// Step 3: flatten
 let flat = flatten pooled
 printfn "Flatten:\n%A" flat
 
-// Paso 4: capa densa (ejemplo con 1 neurona de salida)
-let weights = array2D [ [0.5] ]   // 1x1 porque la entrada es un solo valor
+// Step 4: dense layer (example using one neuron)
+let weights = array2D [ [0.5] ]   // 1x1; 1 neuron, 1 input
 let bias = [| 0.1 |]
 
 let output = dense flat weights bias
