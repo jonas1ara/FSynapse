@@ -7,7 +7,7 @@ _For the three people interested in AI using F#_
 
 - **[Convolutional Neural Network (CNN)](https://github.com/jonas1ara/FSynapse/blob/main/src/Cnn1.fsx)**: Especially useful for image processing, a CNN uses convolutional layers to detect spatial patterns in the input data.
 
-- **[Recurrent Neural Network (RNN)](https://github.com/jonas1ara/FSynapse/blob/main/src/Rnn2.fsx)**: This type of network is ideal for sequential or time series data. You can learn to predict or generate sequences of data.
+- **[Recurrent Neural Network (RNN)](https://github.com/jonas1ara/FSynapse/blob/main/src/Rnn1.fsx)**: This type of network is ideal for sequential or time series data. You can learn to predict or generate sequences of data.
 
 - **Autoencoder**: An autoencoder is a neural network used to learn efficient representations of data. It is useful for dimensionality reduction and generating data similar to the input.
 
