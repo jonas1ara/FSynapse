@@ -148,7 +148,7 @@ preds |> Array.iteri (fun i p ->
     printfn "Input %d -> %A" seq.[i] p
 )
 
-// Aux: argmax function to get predicted class
+// Aux: argmax function
 let argmax (arr: float[]) =
     arr |> Array.mapi (fun i v -> i, v) |> Array.maxBy snd |> fst
 
