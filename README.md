@@ -9,7 +9,7 @@ _For the three people interested in AI using F#_
 
 - **[Recurrent Neural Network (RNN)](https://github.com/jonas1ara/FSynapse/blob/main/src/Rnn1.fsx)**: This type of network is ideal for sequential or time series data. You can learn to predict or generate sequences of data.
 
-- **Autoencoder**: An autoencoder is a neural network used to learn efficient representations of data. It is useful for dimensionality reduction and generating data similar to the input.
+- **[Autoencoder](https://github.com/jonas1ara/FSynapse/blob/main/src/Autoencoder.fsx)**: An autoencoder is a neural network used to learn efficient representations of data. It is useful for dimensionality reduction and generating data similar to the input.
 
 - **Generative Adversarial Network (GAN)**: GANs are used to generate new data that is similar to a training data set. You can learn to generate realistic images, for example.
 
