@@ -1,9 +1,5 @@
 open System
 
-// ===============
-// Autoencoder
-// ===============
-
 // Sigmoid and its derivative
 let sigmoid x = 1.0 / (1.0 + exp(-x))
 let sigmoidDerivative x = x * (1.0 - x)
