@@ -15,4 +15,4 @@ _For the three people interested in AI using F#_
 
 - **[Long Short-Term Memory (LSTM) Recurrent Neural Network](https://github.com/jonas1ara/FSynapse/blob/main/src/Lstm.fsx)**: A type of recurrent network improved to handle problems of long-term dependencies in sequential data.
 
-- **Pretrained Neural Network (Transfer Learning)**: You can learn to use pretrained neural networks for specific tasks, such as image recognition. This is especially useful when you have access to larger data sets.
+- **[Pretrained Neural Network (Transfer Learning)](https://github.com/jonas1ara/FSynapse/tree/main/src/BERT)**: You can learn to use pretrained neural networks for specific tasks, such as image recognition. This is especially useful when you have access to larger data sets.
