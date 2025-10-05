@@ -1,4 +1,8 @@
 # FSynapse: A minimalist lab for neural architectures in F#
+
+![NN](https://github.com/user-attachments/assets/66880a18-6672-4241-9ddb-cc6be905b7b1)
+
+
 _For the three people interested in AI using F#_
 
 - **[Perceptron](https://github.com/jonas1ara/FSynapse/blob/main/src/Simple-perceptron.fsx)**: The Perceptron is a single-layer neural network model that can perform binary classification. It consists of inputs, weights associated with those inputs, a weighted sum function, and an activation function. Although basic, it is the foundation on which more complex neural network models are built.
