@@ -11,7 +11,7 @@ _For the three people interested in AI using F#_
 
 - **[Autoencoder](https://github.com/jonas1ara/FSynapse/blob/main/src/Autoencoder.fsx)**: An autoencoder is a neural network used to learn efficient representations of data. It is useful for dimensionality reduction and generating data similar to the input.
 
-- **Generative Adversarial Network (GAN)**: GANs are used to generate new data that is similar to a training data set. You can learn to generate realistic images, for example.
+- **[Generative Adversarial Network (GAN)](https://github.com/jonas1ara/FSynapse/blob/main/src/Gan.fsx)**: GANs are used to generate new data that is similar to a training data set. You can learn to generate realistic images, for example.
 
 - **Long Short-Term Memory (LSTM) Recurrent Neural Network**: A type of recurrent network improved to handle problems of long-term dependencies in sequential data.
 
